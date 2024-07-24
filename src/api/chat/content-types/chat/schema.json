@@ -1,0 +1,34 @@
+
+{
+  "kind": "singleType",
+  "collectionName": "chats",
+  "info": {
+    "singularName": "chat",
+    "pluralName": "chats",
+    "displayName": "chat"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "senderId": {
+      "type": "number",
+      "column": {
+        "notNullable": true
+      }
+    },
+    "channelName": {
+      "type": "string",
+      "column": {
+        "notNullable": true
+      }
+    },
+    "message": {
+      "type": "string",
+      "column": {
+        "notNullable": true
+      }
+    }
+  }
+}

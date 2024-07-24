@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "channels",
+  "info": {
+    "singularName": "channel",
+    "pluralName": "channels",
+    "displayName": "channel"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "column": {
+        "notNullable": true
+      }
+    }
+  }
+}
